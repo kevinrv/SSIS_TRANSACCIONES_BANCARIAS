@@ -11,8 +11,8 @@
   DTS:LocaleID="10250"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="18"
-  DTS:VersionGUID="{2D172310-E4D9-48B8-9CDC-553C49933BA3}">
+  DTS:VersionBuild="19"
+  DTS:VersionGUID="{CEF0135C-AECD-4810-8A0E-777A4DD239B8}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -6617,107 +6617,107 @@ GROUP BY
           </components>
           <paths>
             <path
-              refId="Package\Poblar tabla hechos.Paths[Merge Join Output4]"
+              refId="Package\Poblar tabla hechos.Paths[Merge Join Output]"
               endId="Package\Poblar tabla hechos\OLE DB Destination.Inputs[OLE DB Destination Input]"
               name="Merge Join Output"
               startId="Package\Poblar tabla hechos\Merge Join 4.Outputs[Merge Join Output]" />
             <path
-              refId="Package\Poblar tabla hechos.Paths[Merge Join Output3]"
+              refId="Package\Poblar tabla hechos.Paths[Merge Join Output1]"
               endId="Package\Poblar tabla hechos\Sort 8.Inputs[Sort Input]"
               name="Merge Join Output"
               startId="Package\Poblar tabla hechos\Merge Join 2.Outputs[Merge Join Output]" />
             <path
-              refId="Package\Poblar tabla hechos.Paths[Merge Join Output]"
+              refId="Package\Poblar tabla hechos.Paths[Merge Join Output2]"
               endId="Package\Poblar tabla hechos\Sort 2.Inputs[Sort Input]"
               name="Merge Join Output"
               startId="Package\Poblar tabla hechos\Merge Join.Outputs[Merge Join Output]" />
             <path
-              refId="Package\Poblar tabla hechos.Paths[Merge Join Output2]"
+              refId="Package\Poblar tabla hechos.Paths[Merge Join Output3]"
               endId="Package\Poblar tabla hechos\Sort 6.Inputs[Sort Input]"
               name="Merge Join Output"
               startId="Package\Poblar tabla hechos\Merge Join 3.Outputs[Merge Join Output]" />
             <path
-              refId="Package\Poblar tabla hechos.Paths[Merge Join Output1]"
+              refId="Package\Poblar tabla hechos.Paths[Merge Join Output4]"
               endId="Package\Poblar tabla hechos\Sort 3.Inputs[Sort Input]"
               name="Merge Join Output"
               startId="Package\Poblar tabla hechos\Merge Join 1.Outputs[Merge Join Output]" />
             <path
-              refId="Package\Poblar tabla hechos.Paths[OLE DB Source Output5]"
-              endId="Package\Poblar tabla hechos\Sort 9.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\Poblar tabla hechos\Dim transacciones.Outputs[OLE DB Source Output]" />
-            <path
               refId="Package\Poblar tabla hechos.Paths[OLE DB Source Output4]"
-              endId="Package\Poblar tabla hechos\Sort 7.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\Poblar tabla hechos\Dim sucursal.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Poblar tabla hechos.Paths[OLE DB Source Output3]"
-              endId="Package\Poblar tabla hechos\Sort 5.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\Poblar tabla hechos\Dim cliente.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Poblar tabla hechos.Paths[OLE DB Source Output]"
-              endId="Package\Poblar tabla hechos\Sort.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\Poblar tabla hechos\Origen Hechos Transacciones.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Poblar tabla hechos.Paths[OLE DB Source Output2]"
               endId="Package\Poblar tabla hechos\Sort 4.Inputs[Sort Input]"
               name="OLE DB Source Output"
               startId="Package\Poblar tabla hechos\Dim cuentas.Outputs[OLE DB Source Output]" />
             <path
-              refId="Package\Poblar tabla hechos.Paths[OLE DB Source Output1]"
+              refId="Package\Poblar tabla hechos.Paths[OLE DB Source Output3]"
+              endId="Package\Poblar tabla hechos\Sort.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\Poblar tabla hechos\Origen Hechos Transacciones.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Poblar tabla hechos.Paths[OLE DB Source Output5]"
               endId="Package\Poblar tabla hechos\Sort 1.Inputs[Sort Input]"
               name="OLE DB Source Output"
               startId="Package\Poblar tabla hechos\Dim tiempo.Outputs[OLE DB Source Output]" />
             <path
-              refId="Package\Poblar tabla hechos.Paths[Sort Output2]"
-              endId="Package\Poblar tabla hechos\Merge Join 1.Inputs[Merge Join Left Input]"
-              name="Sort Output"
-              startId="Package\Poblar tabla hechos\Sort 2.Outputs[Sort Output]" />
+              refId="Package\Poblar tabla hechos.Paths[OLE DB Source Output1]"
+              endId="Package\Poblar tabla hechos\Sort 7.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\Poblar tabla hechos\Dim sucursal.Outputs[OLE DB Source Output]" />
             <path
-              refId="Package\Poblar tabla hechos.Paths[Sort Output9]"
-              endId="Package\Poblar tabla hechos\Merge Join 4.Inputs[Merge Join Right Input]"
-              name="Sort Output"
-              startId="Package\Poblar tabla hechos\Sort 9.Outputs[Sort Output]" />
+              refId="Package\Poblar tabla hechos.Paths[OLE DB Source Output]"
+              endId="Package\Poblar tabla hechos\Sort 9.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\Poblar tabla hechos\Dim transacciones.Outputs[OLE DB Source Output]" />
             <path
-              refId="Package\Poblar tabla hechos.Paths[Sort Output5]"
-              endId="Package\Poblar tabla hechos\Merge Join 3.Inputs[Merge Join Right Input]"
-              name="Sort Output"
-              startId="Package\Poblar tabla hechos\Sort 5.Outputs[Sort Output]" />
-            <path
-              refId="Package\Poblar tabla hechos.Paths[Sort Output1]"
-              endId="Package\Poblar tabla hechos\Merge Join.Inputs[Merge Join Right Input]"
-              name="Sort Output"
-              startId="Package\Poblar tabla hechos\Sort 1.Outputs[Sort Output]" />
-            <path
-              refId="Package\Poblar tabla hechos.Paths[Sort Output6]"
-              endId="Package\Poblar tabla hechos\Merge Join 2.Inputs[Merge Join Left Input]"
-              name="Sort Output"
-              startId="Package\Poblar tabla hechos\Sort 6.Outputs[Sort Output]" />
-            <path
-              refId="Package\Poblar tabla hechos.Paths[Sort Output7]"
-              endId="Package\Poblar tabla hechos\Merge Join 2.Inputs[Merge Join Right Input]"
-              name="Sort Output"
-              startId="Package\Poblar tabla hechos\Sort 7.Outputs[Sort Output]" />
-            <path
-              refId="Package\Poblar tabla hechos.Paths[Sort Output]"
-              endId="Package\Poblar tabla hechos\Merge Join.Inputs[Merge Join Left Input]"
-              name="Sort Output"
-              startId="Package\Poblar tabla hechos\Sort.Outputs[Sort Output]" />
+              refId="Package\Poblar tabla hechos.Paths[OLE DB Source Output2]"
+              endId="Package\Poblar tabla hechos\Sort 5.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\Poblar tabla hechos\Dim cliente.Outputs[OLE DB Source Output]" />
             <path
               refId="Package\Poblar tabla hechos.Paths[Sort Output8]"
-              endId="Package\Poblar tabla hechos\Merge Join 4.Inputs[Merge Join Left Input]"
-              name="Sort Output"
-              startId="Package\Poblar tabla hechos\Sort 8.Outputs[Sort Output]" />
-            <path
-              refId="Package\Poblar tabla hechos.Paths[Sort Output3]"
               endId="Package\Poblar tabla hechos\Merge Join 1.Inputs[Merge Join Right Input]"
               name="Sort Output"
               startId="Package\Poblar tabla hechos\Sort 4.Outputs[Sort Output]" />
             <path
+              refId="Package\Poblar tabla hechos.Paths[Sort Output]"
+              endId="Package\Poblar tabla hechos\Merge Join 1.Inputs[Merge Join Left Input]"
+              name="Sort Output"
+              startId="Package\Poblar tabla hechos\Sort 2.Outputs[Sort Output]" />
+            <path
+              refId="Package\Poblar tabla hechos.Paths[Sort Output1]"
+              endId="Package\Poblar tabla hechos\Merge Join 4.Inputs[Merge Join Right Input]"
+              name="Sort Output"
+              startId="Package\Poblar tabla hechos\Sort 9.Outputs[Sort Output]" />
+            <path
+              refId="Package\Poblar tabla hechos.Paths[Sort Output2]"
+              endId="Package\Poblar tabla hechos\Merge Join 3.Inputs[Merge Join Right Input]"
+              name="Sort Output"
+              startId="Package\Poblar tabla hechos\Sort 5.Outputs[Sort Output]" />
+            <path
+              refId="Package\Poblar tabla hechos.Paths[Sort Output3]"
+              endId="Package\Poblar tabla hechos\Merge Join.Inputs[Merge Join Right Input]"
+              name="Sort Output"
+              startId="Package\Poblar tabla hechos\Sort 1.Outputs[Sort Output]" />
+            <path
               refId="Package\Poblar tabla hechos.Paths[Sort Output4]"
+              endId="Package\Poblar tabla hechos\Merge Join 2.Inputs[Merge Join Left Input]"
+              name="Sort Output"
+              startId="Package\Poblar tabla hechos\Sort 6.Outputs[Sort Output]" />
+            <path
+              refId="Package\Poblar tabla hechos.Paths[Sort Output5]"
+              endId="Package\Poblar tabla hechos\Merge Join 2.Inputs[Merge Join Right Input]"
+              name="Sort Output"
+              startId="Package\Poblar tabla hechos\Sort 7.Outputs[Sort Output]" />
+            <path
+              refId="Package\Poblar tabla hechos.Paths[Sort Output6]"
+              endId="Package\Poblar tabla hechos\Merge Join.Inputs[Merge Join Left Input]"
+              name="Sort Output"
+              startId="Package\Poblar tabla hechos\Sort.Outputs[Sort Output]" />
+            <path
+              refId="Package\Poblar tabla hechos.Paths[Sort Output7]"
+              endId="Package\Poblar tabla hechos\Merge Join 4.Inputs[Merge Join Left Input]"
+              name="Sort Output"
+              startId="Package\Poblar tabla hechos\Sort 8.Outputs[Sort Output]" />
+            <path
+              refId="Package\Poblar tabla hechos.Paths[Sort Output9]"
               endId="Package\Poblar tabla hechos\Merge Join 3.Inputs[Merge Join Left Input]"
               name="Sort Output"
               startId="Package\Poblar tabla hechos\Sort 3.Outputs[Sort Output]" />
@@ -6837,7 +6837,7 @@ GROUP BY
     design-time-name="Package\Poblar dimenciones">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="172.8,41.6"
           Id="Package\Poblar dimenciones\Destino Dim_cuenta"
@@ -6853,7 +6853,7 @@ GROUP BY
         <NodeLayout
           Size="173.6,41.6"
           Id="Package\Poblar dimenciones\Destino Dim_tiempo"
-          TopLeft="50.0000001064368,131.529411649415" />
+          TopLeft="50.714285822243,132.294117531098" />
         <NodeLayout
           Size="200,41.6"
           Id="Package\Poblar dimenciones\Origen dim_transacciones"
@@ -6897,9 +6897,7 @@ GROUP BY
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -6921,33 +6919,29 @@ GROUP BY
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Poblar dimenciones.Paths[OLE DB Source Output]"
-          TopLeft="136.15714296434,66.0705882138447">
+          TopLeft="136.514285822243,66.0705882138447">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,65.4588234355706"
+              EndConnector="0,66.223529317253"
               Start="0,0"
-              End="0,57.9588234355706">
+              End="0,58.723529317253">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,57.9588234355706" />
+                    End="0,58.723529317253" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -6969,9 +6963,7 @@ GROUP BY
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -6993,9 +6985,7 @@ GROUP BY
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -7125,7 +7115,7 @@ GROUP BY
           Id="Package\Poblar tabla hechos\Sort"
           TopLeft="89.9999986588955,102.99999846518" />
         <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[OLE DB Source Output]"
+          Id="Package\Poblar tabla hechos.Paths[OLE DB Source Output3]"
           TopLeft="130.399999672174,64.5999996572733">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7167,7 +7157,7 @@ GROUP BY
           Id="Package\Poblar tabla hechos\Sort 1"
           TopLeft="296.42857205959,102.470588145475" />
         <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[OLE DB Source Output1]"
+          Id="Package\Poblar tabla hechos.Paths[OLE DB Source Output5]"
           TopLeft="348.728572043625,62.2470588054315">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7193,7 +7183,7 @@ GROUP BY
           Id="Package\Poblar tabla hechos\Merge Join"
           TopLeft="161.42857177221,169.764705733547" />
         <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[Sort Output]"
+          Id="Package\Poblar tabla hechos.Paths[Sort Output6]"
           TopLeft="138.799998658896,144.59999846518">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7227,7 +7217,7 @@ GROUP BY
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[Sort Output1]"
+          Id="Package\Poblar tabla hechos.Paths[Sort Output3]"
           TopLeft="349.62857205959,144.070588145475">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7265,7 +7255,7 @@ GROUP BY
           Id="Package\Poblar tabla hechos\Sort 2"
           TopLeft="172.85714322511,248.52941154686" />
         <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[Merge Join Output]"
+          Id="Package\Poblar tabla hechos.Paths[Merge Join Output2]"
           TopLeft="226.14285749866,212.964705733547">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7295,7 +7285,7 @@ GROUP BY
           Id="Package\Poblar tabla hechos\Sort 4"
           TopLeft="370.000000787633,248.576470432057" />
         <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[OLE DB Source Output2]"
+          Id="Package\Poblar tabla hechos.Paths[OLE DB Source Output4]"
           TopLeft="423.300000771667,206.823529328648">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7321,7 +7311,7 @@ GROUP BY
           Id="Package\Poblar tabla hechos\Merge Join 1"
           TopLeft="247.857143384766,326.576470363687" />
         <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[Sort Output2]"
+          Id="Package\Poblar tabla hechos.Paths[Sort Output]"
           TopLeft="226.05714322511,290.12941154686">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7355,7 +7345,7 @@ GROUP BY
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[Sort Output3]"
+          Id="Package\Poblar tabla hechos.Paths[Sort Output8]"
           TopLeft="423.200000787633,290.176470432057">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7393,7 +7383,7 @@ GROUP BY
           Id="Package\Poblar tabla hechos\Sort 3"
           TopLeft="267.142857711534,405.258823310226" />
         <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[Merge Join Output1]"
+          Id="Package\Poblar tabla hechos.Paths[Merge Join Output4]"
           TopLeft="318.70000054815,368.176470363687">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7423,7 +7413,7 @@ GROUP BY
           Id="Package\Poblar tabla hechos\Sort 5"
           TopLeft="455.714286684382,402.564705733548" />
         <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[OLE DB Source Output3]"
+          Id="Package\Poblar tabla hechos.Paths[OLE DB Source Output2]"
           TopLeft="510.114286673738,364.635294038552">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7449,7 +7439,7 @@ GROUP BY
           Id="Package\Poblar tabla hechos\Merge Join 3"
           TopLeft="351.428572176671,466.070588031525" />
         <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[Sort Output4]"
+          Id="Package\Poblar tabla hechos.Paths[Sort Output9]"
           TopLeft="373.542857711534,426.058823310226">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7477,7 +7467,7 @@ GROUP BY
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[Sort Output5]"
+          Id="Package\Poblar tabla hechos.Paths[Sort Output2]"
           TopLeft="455.714286684382,423.364705733548">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7509,7 +7499,7 @@ GROUP BY
           Id="Package\Poblar tabla hechos\Sort 6"
           TopLeft="380.00000080892,532.988235084986" />
         <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[Merge Join Output2]"
+          Id="Package\Poblar tabla hechos.Paths[Merge Join Output3]"
           TopLeft="420.628572176671,507.670588031525">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7551,7 +7541,7 @@ GROUP BY
           Id="Package\Poblar tabla hechos\Sort 7"
           TopLeft="565.000001202737,534.482352775614" />
         <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[OLE DB Source Output4]"
+          Id="Package\Poblar tabla hechos.Paths[OLE DB Source Output1]"
           TopLeft="617.985715470965,506.494117542493">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7577,7 +7567,7 @@ GROUP BY
           Id="Package\Poblar tabla hechos\Merge Join 2"
           TopLeft="487.142858179856,599.494117439938" />
         <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[Sort Output6]"
+          Id="Package\Poblar tabla hechos.Paths[Sort Output4]"
           TopLeft="433.20000080892,574.588235084986">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7611,7 +7601,7 @@ GROUP BY
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[Sort Output7]"
+          Id="Package\Poblar tabla hechos.Paths[Sort Output5]"
           TopLeft="618.200001202737,576.082352775614">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7649,7 +7639,7 @@ GROUP BY
           Id="Package\Poblar tabla hechos\Sort 8"
           TopLeft="507.857143938237,681.399999783495" />
         <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[Merge Join Output3]"
+          Id="Package\Poblar tabla hechos.Paths[Merge Join Output1]"
           TopLeft="558.700001059047,647.494117439938">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7679,7 +7669,7 @@ GROUP BY
           Id="Package\Poblar tabla hechos\Sort 9"
           TopLeft="667.228572719499,675.670588077105" />
         <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[OLE DB Source Output5]"
+          Id="Package\Poblar tabla hechos.Paths[OLE DB Source Output]"
           TopLeft="719.785715609333,646.917646962301">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7705,7 +7695,7 @@ GROUP BY
           Id="Package\Poblar tabla hechos\Merge Join 4"
           TopLeft="566.114286726956,759.411764482004" />
         <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[Sort Output8]"
+          Id="Package\Poblar tabla hechos.Paths[Sort Output7]"
           TopLeft="561.057143938237,722.999999783495">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7739,7 +7729,7 @@ GROUP BY
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[Sort Output9]"
+          Id="Package\Poblar tabla hechos.Paths[Sort Output1]"
           TopLeft="720.428572719499,717.270588077105">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7777,7 +7767,7 @@ GROUP BY
           Id="Package\Poblar tabla hechos\OLE DB Destination"
           TopLeft="608.428572527912,827.188235096381" />
         <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[Merge Join Output4]"
+          Id="Package\Poblar tabla hechos.Paths[Merge Join Output]"
           TopLeft="635.314286726957,801.011764482004">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7822,19 +7812,6 @@ GROUP BY
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Poblar tabla hechos\Dim tiempo">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\Poblar tabla hechos\Dim cuentas">
     <Properties>
       <Property>
@@ -7848,7 +7825,7 @@ GROUP BY
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Poblar tabla hechos\Dim cliente">
+    design-time-name="Package\Poblar tabla hechos\Dim sucursal">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -7861,7 +7838,7 @@ GROUP BY
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Poblar tabla hechos\Dim sucursal">
+    design-time-name="Package\Poblar tabla hechos\Dim tiempo">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -7888,6 +7865,19 @@ GROUP BY
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Poblar tabla hechos\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Poblar tabla hechos\Dim cliente">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
