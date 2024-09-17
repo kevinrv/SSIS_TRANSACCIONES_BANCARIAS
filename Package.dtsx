@@ -11,8 +11,8 @@
   DTS:LocaleID="10250"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="19"
-  DTS:VersionGUID="{CEF0135C-AECD-4810-8A0E-777A4DD239B8}">
+  DTS:VersionBuild="24"
+  DTS:VersionGUID="{C9E94003-CE6B-43D7-815A-B2BDC749EE9D}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -6643,79 +6643,79 @@ GROUP BY
               startId="Package\Poblar tabla hechos\Merge Join 1.Outputs[Merge Join Output]" />
             <path
               refId="Package\Poblar tabla hechos.Paths[OLE DB Source Output4]"
-              endId="Package\Poblar tabla hechos\Sort 4.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\Poblar tabla hechos\Dim cuentas.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Poblar tabla hechos.Paths[OLE DB Source Output3]"
-              endId="Package\Poblar tabla hechos\Sort.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\Poblar tabla hechos\Origen Hechos Transacciones.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Poblar tabla hechos.Paths[OLE DB Source Output5]"
-              endId="Package\Poblar tabla hechos\Sort 1.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\Poblar tabla hechos\Dim tiempo.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Poblar tabla hechos.Paths[OLE DB Source Output1]"
-              endId="Package\Poblar tabla hechos\Sort 7.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\Poblar tabla hechos\Dim sucursal.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Poblar tabla hechos.Paths[OLE DB Source Output]"
               endId="Package\Poblar tabla hechos\Sort 9.Inputs[Sort Input]"
               name="OLE DB Source Output"
               startId="Package\Poblar tabla hechos\Dim transacciones.Outputs[OLE DB Source Output]" />
             <path
-              refId="Package\Poblar tabla hechos.Paths[OLE DB Source Output2]"
+              refId="Package\Poblar tabla hechos.Paths[OLE DB Source Output3]"
+              endId="Package\Poblar tabla hechos\Sort 7.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\Poblar tabla hechos\Dim sucursal.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Poblar tabla hechos.Paths[OLE DB Source Output5]"
               endId="Package\Poblar tabla hechos\Sort 5.Inputs[Sort Input]"
               name="OLE DB Source Output"
               startId="Package\Poblar tabla hechos\Dim cliente.Outputs[OLE DB Source Output]" />
             <path
+              refId="Package\Poblar tabla hechos.Paths[OLE DB Source Output1]"
+              endId="Package\Poblar tabla hechos\Sort.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\Poblar tabla hechos\Origen Hechos Transacciones.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Poblar tabla hechos.Paths[OLE DB Source Output]"
+              endId="Package\Poblar tabla hechos\Sort 4.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\Poblar tabla hechos\Dim cuentas.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Poblar tabla hechos.Paths[OLE DB Source Output2]"
+              endId="Package\Poblar tabla hechos\Sort 1.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\Poblar tabla hechos\Dim tiempo.Outputs[OLE DB Source Output]" />
+            <path
               refId="Package\Poblar tabla hechos.Paths[Sort Output8]"
+              endId="Package\Poblar tabla hechos\Merge Join 4.Inputs[Merge Join Left Input]"
+              name="Sort Output"
+              startId="Package\Poblar tabla hechos\Sort 8.Outputs[Sort Output]" />
+            <path
+              refId="Package\Poblar tabla hechos.Paths[Sort Output]"
               endId="Package\Poblar tabla hechos\Merge Join 1.Inputs[Merge Join Right Input]"
               name="Sort Output"
               startId="Package\Poblar tabla hechos\Sort 4.Outputs[Sort Output]" />
             <path
-              refId="Package\Poblar tabla hechos.Paths[Sort Output]"
+              refId="Package\Poblar tabla hechos.Paths[Sort Output1]"
               endId="Package\Poblar tabla hechos\Merge Join 1.Inputs[Merge Join Left Input]"
               name="Sort Output"
               startId="Package\Poblar tabla hechos\Sort 2.Outputs[Sort Output]" />
             <path
-              refId="Package\Poblar tabla hechos.Paths[Sort Output1]"
+              refId="Package\Poblar tabla hechos.Paths[Sort Output2]"
               endId="Package\Poblar tabla hechos\Merge Join 4.Inputs[Merge Join Right Input]"
               name="Sort Output"
               startId="Package\Poblar tabla hechos\Sort 9.Outputs[Sort Output]" />
             <path
-              refId="Package\Poblar tabla hechos.Paths[Sort Output2]"
+              refId="Package\Poblar tabla hechos.Paths[Sort Output3]"
               endId="Package\Poblar tabla hechos\Merge Join 3.Inputs[Merge Join Right Input]"
               name="Sort Output"
               startId="Package\Poblar tabla hechos\Sort 5.Outputs[Sort Output]" />
             <path
-              refId="Package\Poblar tabla hechos.Paths[Sort Output3]"
+              refId="Package\Poblar tabla hechos.Paths[Sort Output4]"
               endId="Package\Poblar tabla hechos\Merge Join.Inputs[Merge Join Right Input]"
               name="Sort Output"
               startId="Package\Poblar tabla hechos\Sort 1.Outputs[Sort Output]" />
             <path
-              refId="Package\Poblar tabla hechos.Paths[Sort Output4]"
+              refId="Package\Poblar tabla hechos.Paths[Sort Output5]"
               endId="Package\Poblar tabla hechos\Merge Join 2.Inputs[Merge Join Left Input]"
               name="Sort Output"
               startId="Package\Poblar tabla hechos\Sort 6.Outputs[Sort Output]" />
             <path
-              refId="Package\Poblar tabla hechos.Paths[Sort Output5]"
+              refId="Package\Poblar tabla hechos.Paths[Sort Output6]"
               endId="Package\Poblar tabla hechos\Merge Join 2.Inputs[Merge Join Right Input]"
               name="Sort Output"
               startId="Package\Poblar tabla hechos\Sort 7.Outputs[Sort Output]" />
             <path
-              refId="Package\Poblar tabla hechos.Paths[Sort Output6]"
+              refId="Package\Poblar tabla hechos.Paths[Sort Output7]"
               endId="Package\Poblar tabla hechos\Merge Join.Inputs[Merge Join Left Input]"
               name="Sort Output"
               startId="Package\Poblar tabla hechos\Sort.Outputs[Sort Output]" />
-            <path
-              refId="Package\Poblar tabla hechos.Paths[Sort Output7]"
-              endId="Package\Poblar tabla hechos\Merge Join 4.Inputs[Merge Join Left Input]"
-              name="Sort Output"
-              startId="Package\Poblar tabla hechos\Sort 8.Outputs[Sort Output]" />
             <path
               refId="Package\Poblar tabla hechos.Paths[Sort Output9]"
               endId="Package\Poblar tabla hechos\Merge Join 3.Inputs[Merge Join Left Input]"
@@ -6739,8 +6739,7 @@ GROUP BY
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{B9903C8C-27A9-4825-97BC-1B8483B3E586}"
-          SQLTask:SqlStmtSourceType="FileConnection"
-          SQLTask:SqlStatementSource="Reiniciar Tablas.sql" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="DELETE FROM hechos_transacciones;&#xA;DBCC CHECKIDENT ('hechos_transacciones', RESEED, 0); &#xA;&#xA;DELETE FROM dim_tiempo;&#xA;DBCC CHECKIDENT ('dim_tiempo', RESEED, 0); &#xA;&#xA;DELETE FROM dim_cliente;&#xA;DBCC CHECKIDENT ('dim_cliente', RESEED, 0); &#xA;&#xA;DELETE FROM dim_sucursal;&#xA;DBCC CHECKIDENT ('dim_sucursal', RESEED, 0); &#xA;&#xA;DELETE FROM dim_transacciones;&#xA;DBCC CHECKIDENT ('dim_transacciones', RESEED, 0); &#xA;&#xA;DELETE FROM dim_cuenta;&#xA;DBCC CHECKIDENT ('dim_cuenta', RESEED, 0); " xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
@@ -6792,14 +6791,14 @@ GROUP BY
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,57.0470587370613"
+              EndConnector="0,57.047058737061"
               Start="0,0"
-              End="0,49.5470587370613">
+              End="0,49.547058737061">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,49.5470587370613" />
+                    End="0,49.547058737061" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7107,69 +7106,113 @@ GROUP BY
       <GraphLayout
         Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="97.6,41.6"
+          Id="Package\Poblar tabla hechos\Sort"
+          TopLeft="89.9999986588955,102.99999846518" />
+        <NodeLayout
+          Size="106.4,41.6"
+          Id="Package\Poblar tabla hechos\Sort 9"
+          TopLeft="667.228572719499,675.670588077105" />
+        <NodeLayout
+          Size="138.4,41.6"
+          Id="Package\Poblar tabla hechos\Merge Join 1"
+          TopLeft="247.857143384766,326.576470363687" />
+        <NodeLayout
+          Size="138.4,41.6"
+          Id="Package\Poblar tabla hechos\Merge Join 4"
+          TopLeft="566.114286726956,759.411764482004" />
+        <NodeLayout
           Size="216.8,41.6"
           Id="Package\Poblar tabla hechos\Origen Hechos Transacciones"
           TopLeft="21.9999996721745,22.9999996572733" />
         <NodeLayout
-          Size="97.6,41.6"
-          Id="Package\Poblar tabla hechos\Sort"
-          TopLeft="89.9999986588955,102.99999846518" />
-        <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[OLE DB Source Output3]"
-          TopLeft="130.399999672174,64.5999996572733">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="8.39999898672102,38.3999988079071"
-              Start="0,0"
-              End="8.39999898672102,30.8999988079071">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,15.1999994039536" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,15.1999994039536"
-                    Point2="0,19.1999994039536"
-                    Point3="4,19.1999994039536" />
-                  <mssgle:LineSegment
-                    End="4.39999898672102,19.1999994039536" />
-                  <mssgle:CubicBezierSegment
-                    Point1="4.39999898672102,19.1999994039536"
-                    Point2="8.39999898672102,19.1999994039536"
-                    Point3="8.39999898672102,23.1999994039536" />
-                  <mssgle:LineSegment
-                    End="8.39999898672102,30.8999988079071" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          Size="136.8,41.6"
+          Id="Package\Poblar tabla hechos\Dim cuentas"
+          TopLeft="355.000000755702,165.223529328648" />
+        <NodeLayout
+          Size="106.4,41.6"
+          Id="Package\Poblar tabla hechos\Sort 3"
+          TopLeft="267.142857711534,405.258823310226" />
+        <NodeLayout
+          Size="106.4,41.6"
+          Id="Package\Poblar tabla hechos\Sort 6"
+          TopLeft="380.00000080892,532.988235084986" />
+        <NodeLayout
+          Size="138.4,48"
+          Id="Package\Poblar tabla hechos\Merge Join 2"
+          TopLeft="487.142858179856,599.494117439938" />
+        <NodeLayout
+          Size="106.4,41.6"
+          Id="Package\Poblar tabla hechos\Sort 5"
+          TopLeft="455.714286684382,402.564705733548" />
+        <NodeLayout
+          Size="106.4,41.6"
+          Id="Package\Poblar tabla hechos\Sort 7"
+          TopLeft="565.000001202737,534.482352775614" />
+        <NodeLayout
+          Size="138.4,41.6"
+          Id="Package\Poblar tabla hechos\Merge Join 3"
+          TopLeft="351.428572176671,466.070588031525" />
+        <NodeLayout
+          Size="138.4,41.6"
+          Id="Package\Poblar tabla hechos\Dim sucursal"
+          TopLeft="548.571429739193,464.894117542493" />
+        <NodeLayout
+          Size="106.4,41.6"
+          Id="Package\Poblar tabla hechos\Sort 2"
+          TopLeft="172.85714322511,248.52941154686" />
+        <NodeLayout
+          Size="106.4,41.6"
+          Id="Package\Poblar tabla hechos\Sort 4"
+          TopLeft="370.000000787633,248.576470432057" />
+        <NodeLayout
+          Size="106.4,41.6"
+          Id="Package\Poblar tabla hechos\Sort 1"
+          TopLeft="296.42857205959,102.470588145475" />
+        <NodeLayout
+          Size="106.4,41.6"
+          Id="Package\Poblar tabla hechos\Sort 8"
+          TopLeft="507.857143938237,681.399999783495" />
         <NodeLayout
           Size="132.8,41.6"
           Id="Package\Poblar tabla hechos\Dim tiempo"
           TopLeft="281.428572027659,20.6470588054315" />
         <NodeLayout
-          Size="106.4,41.6"
-          Id="Package\Poblar tabla hechos\Sort 1"
-          TopLeft="296.42857205959,102.470588145475" />
+          Size="164,41.6"
+          Id="Package\Poblar tabla hechos\Dim transacciones"
+          TopLeft="637.142858499167,605.317646962301" />
+        <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\Poblar tabla hechos\OLE DB Destination"
+          TopLeft="608.428572527912,827.188235096381" />
+        <NodeLayout
+          Size="129.6,43.2"
+          Id="Package\Poblar tabla hechos\Merge Join"
+          TopLeft="161.42857177221,169.764705733547" />
+        <NodeLayout
+          Size="131.2,41.6"
+          Id="Package\Poblar tabla hechos\Dim cliente"
+          TopLeft="445.714286663094,323.035294038552" />
         <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[OLE DB Source Output5]"
-          TopLeft="348.728572043625,62.2470588054315">
+          Id="Package\Poblar tabla hechos.Paths[Sort Output9]"
+          TopLeft="373.542857711534,426.058823310226">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,40.2235293400432"
+              EndConnector="47.0857144651365,40.011764721299"
               Start="0,0"
-              End="0,32.7235293400432">
+              End="47.0857144651365,32.511764721299">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,32.7235293400432" />
+                    End="43.0857144651365,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="43.0857144651365,0"
+                    Point2="47.0857144651365,0"
+                    Point3="47.0857144651365,4" />
+                  <mssgle:LineSegment
+                    End="47.0857144651365,32.511764721299" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7178,12 +7221,42 @@ GROUP BY
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="129.6,43.2"
-          Id="Package\Poblar tabla hechos\Merge Join"
-          TopLeft="161.42857177221,169.764705733547" />
         <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[Sort Output6]"
+          Id="Package\Poblar tabla hechos.Paths[Sort Output8]"
+          TopLeft="561.057143938237,722.999999783495">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="74.2571427887191,36.4117646985092"
+              Start="0,0"
+              End="74.2571427887191,28.9117646985092">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,14.2058823492546" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,14.2058823492546"
+                    Point2="0,18.2058823492546"
+                    Point3="4,18.2058823492546" />
+                  <mssgle:LineSegment
+                    End="70.2571427887191,18.2058823492546" />
+                  <mssgle:CubicBezierSegment
+                    Point1="70.2571427887191,18.2058823492546"
+                    Point2="74.2571427887191,18.2058823492546"
+                    Point3="74.2571427887191,22.2058823492546" />
+                  <mssgle:LineSegment
+                    End="74.2571427887191,28.9117646985092" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Poblar tabla hechos.Paths[Sort Output7]"
           TopLeft="138.799998658896,144.59999846518">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7217,7 +7290,75 @@ GROUP BY
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[Sort Output3]"
+          Id="Package\Poblar tabla hechos.Paths[Sort Output6]"
+          TopLeft="618.200001202737,576.082352775614">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-40.1238096895471,23.4117646643239"
+              Start="0,0"
+              End="-40.1238096895471,15.9117646643239">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,9.88652098375325" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,9.88652098375325"
+                    Point2="0,13.8865209837532"
+                    Point3="-4,13.8865209837532" />
+                  <mssgle:LineSegment
+                    End="-36.1238096895471,13.8865209837532" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-36.1238096895471,13.8865209837532"
+                    Point2="-40.1238096895471,13.8865209837532"
+                    Point3="-40.1238096895471,17.8865209837532" />
+                  <mssgle:LineSegment
+                    End="-40.1238096895471,15.9117646643239" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Poblar tabla hechos.Paths[Sort Output5]"
+          TopLeft="433.20000080892,574.588235084986">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="123.142857370936,24.905882354952"
+              Start="0,0"
+              End="123.142857370936,17.405882354952">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,8.45294117747602" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,8.45294117747602"
+                    Point2="0,12.452941177476"
+                    Point3="4,12.452941177476" />
+                  <mssgle:LineSegment
+                    End="119.142857370936,12.452941177476" />
+                  <mssgle:CubicBezierSegment
+                    Point1="119.142857370936,12.452941177476"
+                    Point2="123.142857370936,12.452941177476"
+                    Point3="123.142857370936,16.452941177476" />
+                  <mssgle:LineSegment
+                    End="123.142857370936,17.405882354952" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Poblar tabla hechos.Paths[Sort Output4]"
           TopLeft="349.62857205959,144.070588145475">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7250,24 +7391,26 @@ GROUP BY
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="106.4,41.6"
-          Id="Package\Poblar tabla hechos\Sort 2"
-          TopLeft="172.85714322511,248.52941154686" />
         <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[Merge Join Output2]"
-          TopLeft="226.14285749866,212.964705733547">
+          Id="Package\Poblar tabla hechos.Paths[Sort Output3]"
+          TopLeft="455.714286684382,423.364705733548">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,35.5647058133127"
+              EndConnector="-13.3523811743777,42.7058822979769"
               Start="0,0"
-              End="0,28.0647058133127">
+              End="-13.3523811743777,35.2058822979769">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,28.0647058133127" />
+                    End="-9.35238117437768,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-9.35238117437768,0"
+                    Point2="-13.3523811743777,0"
+                    Point3="-13.3523811743777,4" />
+                  <mssgle:LineSegment
+                    End="-13.3523811743777,35.2058822979769" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7276,28 +7419,32 @@ GROUP BY
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="136.8,41.6"
-          Id="Package\Poblar tabla hechos\Dim cuentas"
-          TopLeft="355.000000755702,165.223529328648" />
-        <NodeLayout
-          Size="106.4,41.6"
-          Id="Package\Poblar tabla hechos\Sort 4"
-          TopLeft="370.000000787633,248.576470432057" />
         <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[OLE DB Source Output4]"
-          TopLeft="423.300000771667,206.823529328648">
+          Id="Package\Poblar tabla hechos.Paths[Sort Output2]"
+          TopLeft="720.428572719499,717.270588077105">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,41.7529411034086"
+              EndConnector="-63.380952659209,42.1411764048995"
               Start="0,0"
-              End="0,34.2529411034086">
+              End="-63.380952659209,34.6411764048995">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,34.2529411034086" />
+                    End="0,20.9957377761632" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,20.9957377761632"
+                    Point2="0,24.9957377761632"
+                    Point3="-4,24.9957377761632" />
+                  <mssgle:LineSegment
+                    End="-59.380952659209,24.9957377761632" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-59.380952659209,24.9957377761632"
+                    Point2="-63.380952659209,24.9957377761632"
+                    Point3="-63.380952659209,28.9957377761632" />
+                  <mssgle:LineSegment
+                    End="-63.380952659209,34.6411764048995" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7306,12 +7453,8 @@ GROUP BY
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="138.4,41.6"
-          Id="Package\Poblar tabla hechos\Merge Join 1"
-          TopLeft="247.857143384766,326.576470363687" />
         <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[Sort Output]"
+          Id="Package\Poblar tabla hechos.Paths[Sort Output1]"
           TopLeft="226.05714322511,290.12941154686">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7345,7 +7488,7 @@ GROUP BY
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[Sort Output8]"
+          Id="Package\Poblar tabla hechos.Paths[Sort Output]"
           TopLeft="423.200000787633,290.176470432057">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7378,10 +7521,150 @@ GROUP BY
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="106.4,41.6"
-          Id="Package\Poblar tabla hechos\Sort 3"
-          TopLeft="267.142857711534,405.258823310226" />
+        <EdgeLayout
+          Id="Package\Poblar tabla hechos.Paths[OLE DB Source Output5]"
+          TopLeft="510.114286673738,364.635294038552">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,37.9294116949954"
+              Start="0,0"
+              End="0,30.4294116949954">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,30.4294116949954" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Poblar tabla hechos.Paths[OLE DB Source Output4]"
+          TopLeft="719.785715609333,646.917646962301">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,28.7529411148034"
+              Start="0,0"
+              End="0,21.2529411148034">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,21.2529411148034" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Poblar tabla hechos.Paths[OLE DB Source Output3]"
+          TopLeft="617.985715470965,506.494117542493">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,27.9882352331209"
+              Start="0,0"
+              End="0,20.4882352331209">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,20.4882352331209" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Poblar tabla hechos.Paths[OLE DB Source Output2]"
+          TopLeft="348.728572043625,62.2470588054315">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,40.2235293400432"
+              Start="0,0"
+              End="0,32.7235293400432">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,32.7235293400432" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Poblar tabla hechos.Paths[OLE DB Source Output1]"
+          TopLeft="130.399999672174,64.5999996572733">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="8.39999898672102,38.3999988079071"
+              Start="0,0"
+              End="8.39999898672102,30.8999988079071">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,15.1999994039536" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,15.1999994039536"
+                    Point2="0,19.1999994039536"
+                    Point3="4,19.1999994039536" />
+                  <mssgle:LineSegment
+                    End="4.39999898672102,19.1999994039536" />
+                  <mssgle:CubicBezierSegment
+                    Point1="4.39999898672102,19.1999994039536"
+                    Point2="8.39999898672102,19.1999994039536"
+                    Point3="8.39999898672102,23.1999994039536" />
+                  <mssgle:LineSegment
+                    End="8.39999898672102,30.8999988079071" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Poblar tabla hechos.Paths[OLE DB Source Output]"
+          TopLeft="423.300000771667,206.823529328648">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,41.7529411034086"
+              Start="0,0"
+              End="0,34.2529411034086">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,34.2529411034086" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Poblar tabla hechos.Paths[Merge Join Output4]"
           TopLeft="318.70000054815,368.176470363687">
@@ -7404,100 +7687,6 @@ GROUP BY
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="131.2,41.6"
-          Id="Package\Poblar tabla hechos\Dim cliente"
-          TopLeft="445.714286663094,323.035294038552" />
-        <NodeLayout
-          Size="106.4,41.6"
-          Id="Package\Poblar tabla hechos\Sort 5"
-          TopLeft="455.714286684382,402.564705733548" />
-        <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[OLE DB Source Output2]"
-          TopLeft="510.114286673738,364.635294038552">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,37.9294116949954"
-              Start="0,0"
-              End="0,30.4294116949954">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,30.4294116949954" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="138.4,41.6"
-          Id="Package\Poblar tabla hechos\Merge Join 3"
-          TopLeft="351.428572176671,466.070588031525" />
-        <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[Sort Output9]"
-          TopLeft="373.542857711534,426.058823310226">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="47.0857144651365,40.011764721299"
-              Start="0,0"
-              End="47.0857144651365,32.511764721299">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="43.0857144651365,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="43.0857144651365,0"
-                    Point2="47.0857144651365,0"
-                    Point3="47.0857144651365,4" />
-                  <mssgle:LineSegment
-                    End="47.0857144651365,32.511764721299" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[Sort Output2]"
-          TopLeft="455.714286684382,423.364705733548">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-13.3523811743777,42.7058822979769"
-              Start="0,0"
-              End="-13.3523811743777,35.2058822979769">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="-9.35238117437768,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-9.35238117437768,0"
-                    Point2="-13.3523811743777,0"
-                    Point3="-13.3523811743777,4" />
-                  <mssgle:LineSegment
-                    End="-13.3523811743777,35.2058822979769" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="106.4,41.6"
-          Id="Package\Poblar tabla hechos\Sort 6"
-          TopLeft="380.00000080892,532.988235084986" />
         <EdgeLayout
           Id="Package\Poblar tabla hechos.Paths[Merge Join Output3]"
           TopLeft="420.628572176671,507.670588031525">
@@ -7532,28 +7721,20 @@ GROUP BY
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="138.4,41.6"
-          Id="Package\Poblar tabla hechos\Dim sucursal"
-          TopLeft="548.571429739193,464.894117542493" />
-        <NodeLayout
-          Size="106.4,41.6"
-          Id="Package\Poblar tabla hechos\Sort 7"
-          TopLeft="565.000001202737,534.482352775614" />
         <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[OLE DB Source Output1]"
-          TopLeft="617.985715470965,506.494117542493">
+          Id="Package\Poblar tabla hechos.Paths[Merge Join Output2]"
+          TopLeft="226.14285749866,212.964705733547">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,27.9882352331209"
+              EndConnector="0,35.5647058133127"
               Start="0,0"
-              End="0,20.4882352331209">
+              End="0,28.0647058133127">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,20.4882352331209" />
+                    End="0,28.0647058133127" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7562,82 +7743,6 @@ GROUP BY
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="138.4,48"
-          Id="Package\Poblar tabla hechos\Merge Join 2"
-          TopLeft="487.142858179856,599.494117439938" />
-        <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[Sort Output4]"
-          TopLeft="433.20000080892,574.588235084986">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="123.142857370936,24.905882354952"
-              Start="0,0"
-              End="123.142857370936,17.405882354952">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,8.45294117747602" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,8.45294117747602"
-                    Point2="0,12.452941177476"
-                    Point3="4,12.452941177476" />
-                  <mssgle:LineSegment
-                    End="119.142857370936,12.452941177476" />
-                  <mssgle:CubicBezierSegment
-                    Point1="119.142857370936,12.452941177476"
-                    Point2="123.142857370936,12.452941177476"
-                    Point3="123.142857370936,16.452941177476" />
-                  <mssgle:LineSegment
-                    End="123.142857370936,17.405882354952" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[Sort Output5]"
-          TopLeft="618.200001202737,576.082352775614">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-40.1238096895471,23.4117646643239"
-              Start="0,0"
-              End="-40.1238096895471,15.9117646643239">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,9.88652098375325" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,9.88652098375325"
-                    Point2="0,13.8865209837532"
-                    Point3="-4,13.8865209837532" />
-                  <mssgle:LineSegment
-                    End="-36.1238096895471,13.8865209837532" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-36.1238096895471,13.8865209837532"
-                    Point2="-40.1238096895471,13.8865209837532"
-                    Point3="-40.1238096895471,17.8865209837532" />
-                  <mssgle:LineSegment
-                    End="-40.1238096895471,15.9117646643239" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="106.4,41.6"
-          Id="Package\Poblar tabla hechos\Sort 8"
-          TopLeft="507.857143938237,681.399999783495" />
         <EdgeLayout
           Id="Package\Poblar tabla hechos.Paths[Merge Join Output1]"
           TopLeft="558.700001059047,647.494117439938">
@@ -7660,112 +7765,6 @@ GROUP BY
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="164,41.6"
-          Id="Package\Poblar tabla hechos\Dim transacciones"
-          TopLeft="637.142858499167,605.317646962301" />
-        <NodeLayout
-          Size="106.4,41.6"
-          Id="Package\Poblar tabla hechos\Sort 9"
-          TopLeft="667.228572719499,675.670588077105" />
-        <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[OLE DB Source Output]"
-          TopLeft="719.785715609333,646.917646962301">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,28.7529411148034"
-              Start="0,0"
-              End="0,21.2529411148034">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,21.2529411148034" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="138.4,41.6"
-          Id="Package\Poblar tabla hechos\Merge Join 4"
-          TopLeft="566.114286726956,759.411764482004" />
-        <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[Sort Output7]"
-          TopLeft="561.057143938237,722.999999783495">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="74.2571427887191,36.4117646985092"
-              Start="0,0"
-              End="74.2571427887191,28.9117646985092">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,14.2058823492546" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,14.2058823492546"
-                    Point2="0,18.2058823492546"
-                    Point3="4,18.2058823492546" />
-                  <mssgle:LineSegment
-                    End="70.2571427887191,18.2058823492546" />
-                  <mssgle:CubicBezierSegment
-                    Point1="70.2571427887191,18.2058823492546"
-                    Point2="74.2571427887191,18.2058823492546"
-                    Point3="74.2571427887191,22.2058823492546" />
-                  <mssgle:LineSegment
-                    End="74.2571427887191,28.9117646985092" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Poblar tabla hechos.Paths[Sort Output1]"
-          TopLeft="720.428572719499,717.270588077105">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-63.380952659209,42.1411764048995"
-              Start="0,0"
-              End="-63.380952659209,34.6411764048995">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,20.9957377761632" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,20.9957377761632"
-                    Point2="0,24.9957377761632"
-                    Point3="-4,24.9957377761632" />
-                  <mssgle:LineSegment
-                    End="-59.380952659209,24.9957377761632" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-59.380952659209,24.9957377761632"
-                    Point2="-63.380952659209,24.9957377761632"
-                    Point3="-63.380952659209,28.9957377761632" />
-                  <mssgle:LineSegment
-                    End="-63.380952659209,34.6411764048995" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="170.4,41.6"
-          Id="Package\Poblar tabla hechos\OLE DB Destination"
-          TopLeft="608.428572527912,827.188235096381" />
         <EdgeLayout
           Id="Package\Poblar tabla hechos.Paths[Merge Join Output]"
           TopLeft="635.314286726957,801.011764482004">
